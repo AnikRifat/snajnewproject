@@ -9,6 +9,15 @@
 .d-flex {
     display: flex;
 }*/
+h1.title {
+  text-align: center;
+  font-size: 30px;
+  color: #6bb9cc;
+  border-bottom: 4px solid #6bb9cc;
+  width: 50%;
+  margin: 0px auto;
+  padding: 5px;
+}
 body {
   font: 16px arial;
   margin: 0;
@@ -106,4 +115,57 @@ p.ab-article {
   color: #fff;
   font-size: 20px;
   box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.75);
+}
+
+.work-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img.work-img {
+  width: 250px;
+}
+
+.work-box {
+  padding: 10px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.75);
+  margin: 15px;
+}
+
+.contact-form {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.field span {
+  font-size: 25px;
+  color: #001636;
+}
+
+.field {
+  margin: 10px;
+}
+
+.field input{
+  border-radius: 10px;
+  height: 15px;
+  padding: 5px;
+  border: 2px solid #041833;
+}
+.field button {
+  margin: 0px auto;
+  text-align: center;
+  margin-left: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background: #6bb9cc;
+  margin-top: 10px;
+  border: 2px solid #6bb9cc;
+}
+
+section#contact {
+  padding-bottom: 2rem;
 }
